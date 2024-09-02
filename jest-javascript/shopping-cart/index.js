@@ -13,7 +13,7 @@ function removeItemFromCart(item) {
 function updateItemQuantities(quantity, item) {
   return cart.map((curr) => {
     if (curr.id === item.id) {
-      curr.quanttity = quantity;
+      curr.quantity = quantity;
     }
     return curr;
   });
